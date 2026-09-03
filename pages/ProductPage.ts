@@ -8,11 +8,11 @@ export class ProductPage {
     }
 
     productName(id: string | number): Locator {
-        return this.page.getByTestId(`product-name-${id}`); // TODO: confirm exact pattern
+        return this.page.getByTestId(`product-name-${id}`); 
     }
 
     productPrice(id: string | number): Locator {
-        return this.page.getByTestId(`product-price-${id}`); // TODO: confirm
+        return this.page.getByTestId(`product-price-${id}`);
     }
 
     addToCartButton(id: string | number): Locator {
